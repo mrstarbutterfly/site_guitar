@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head lang="ru">
+            <meta charset="utf-8">
+            <title>About</title>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+            <link href="style2.css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Stalinist+One&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Stalinist+One&display=swap" rel="stylesheet">
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+            
+
+
+    </head>
+
+
+    <body>
+            <header>
+                    <h1> Vintage Guitars</h1>
+                    <h1 class="h1">NO BRAINS. JUST BEAUTY.</h1>
+                    
+                    
+                </header>
+                
+                
+            <h1>About US</h1>
+            <p class="p0">As long as there is music in the world, its authors and performers will have their fans and admirers who will wear their idols in their hands and dream of one day becoming like them. Musical instruments, which once played great rockers, today are sold at auction for fabulous money. And it is understandable why: in the hands of collectors and fans of musicians, along with them, remains of the souls of those people who have forever inscribed their names in the tablets of history. </p>
+            <p class="p">Read and dream.</p>
+            <button type="button" class="scroll_down" id="scroll_down"></button>
+
+            <div class="container-fluid">
+                <div class="row">
+                        <div class="col-12 block block-0 row justify-content-center align-items-center">
+                            
+                            <a id="top"><h2 class="h2">Electro Guitars</h2></a>
+                                
+        
+                            </div>
+                    
+                    <div class="col-6 block block-1 row justify-content-center align-items-center">
+                        <a href="/Users/train/Desktop/Yarikviebivaetsa/lespaul.html"><img src="img/Gibson-Les-Paul.png" class="img1"></a>
+                        
+
+                    </div>
+
+                    <div class="col-6 block block-2 row justify-content-center align-items-center">
+                            <a href="file:///Users/train/Desktop/Yarikviebivaetsa/strat.html"><img src="img/57acc01ff56377a5e26a922779367f66.png" class="img2"></a>
+                            
+    
+                     </div>
+                    
+                     
+
+                    
+
+                    
+                    
+                    <div class="col-6 block block-3 row justify-content-center align-items-center">
+                            <a href="/Users/train/Desktop/Yarikviebivaetsa/lespaul.html"><h2>Les Paul</h2></a>
+                            <p class="p0" id="pp">
+                                    Gibson Les Paul - the first electric guitar with a solid body from the company Gibson, one of the symbols of rock music and one of the most long-lived and popular models of musical instruments in the world. The model was developed in early 1950 by Ted McCarthy along with guitarist Les Paul.
+                    </div>
+
+                    <div class="col-6 block block-4 row justify-content-center align-items-center">
+                        <a href="file:///Users/train/Desktop/Yarikviebivaetsa/strat.html"><h2 >Stratocaster</h2></a>
+                        <p class="p0" id="pp">
+                                Fender Stratocaster (or Strat) is a model of electric guitar developed by George Fullerton, Leo Fender and Freddie Tavares in 1954 and produced up to the present. Stratocaster has been used by many guitarists, and therefore it can be heard on many historical records.
+
+                        
+
+                    </div>
+                    
+
+                </div>
+        </div>
+
+        <script>
+            /*begin Scroll Down Button
+ * ------------------------------------------------------------------------- */
+(function() {
+'use strict';
+
+var btnScrollDown = document.querySelector('#scroll_down');
+
+function scrollDown() {
+  var windowCoords = document.documentElement.clientHeight;
+  (function scroll() {
+    if (window.pageYOffset < windowCoords) {
+      window.scrollBy(0, 10);
+      setTimeout(scroll, 0);
+    }
+    if (window.pageYOffset > windowCoords) {
+      window.scrollTo(0, windowCoords);
+    }
+  })();
+}
+
+btnScrollDown.addEventListener('click', scrollDown);
+})();
+/* -------------------------------------------------------------------------
+   end Scroll Down Button
+ * ------------------------------------------------------------------------- */
+
+        
+        
+        </script>
+            
+
+        
+    </body>
+
+    

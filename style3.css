@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+
+}
+
+
+
+.pls{
+    position: absolute;
+}
+
+.text{
+    position: absolute;
+    color:white;
+}
+
+h2{
+    padding-top: 10%;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    font-family: 'Abril Fatface', cursive;
+}
+
+h3{
+    font-size: 30px;
+    top:10px;
+    bottom: 10px;
+
+}
+p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.block-1{
+    background: url(img/ERic\ clapton\ gold.webp);
+    
+    
+}
+.block-2{
+    background: url(img/414.jpg);
+}
+
+.block-3{
+    background: url(img/SRVSTRAT.webp);
+}
+
+
+
+.block-4{
+    background: url(img/s-l800.jpg);
+   
+}
+
+
+
+.block{
+    background-position: 60% 0;
+    flex-grow: 1;
+    transition: all 1s;
+    position: relative;
+}
+
+.block:hover{
+    flex-grow: 2;
+    transition: all 1s;
+}
+
+.btn0{
+    position: absolute;
+    color: white;
+    text-shadow: 3px 3px 1px black;
+    border-radius: 10%;
+    border: 0;
+    font-size:30px;
+    z-index: 1;
+    margin-top: 700px;
+    margin-left: 700px;
+    font-family: 'Abril Fatface', cursive;
+
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+
+
+.btn{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 20px;
+    padding-top: 5%;
+    margin-left: 45%;
+    text-shadow: 3px 3px 1px black;
+    font-family: 'Abril Fatface', cursive;
+    transition: all 1s;
+    
+    
+
+    
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+
+    
+
+}
+
+.btn:hover{
+    transform: scale(1.3);
+    transition: all 1s;
+}
+
+
+.modalwin { 
+    height: 450px;  
+    width: 500px;
+    background: rgba(black, .3);
+    top: 4%; /* отступ сверху */
+    right: 0;
+    left: 0;
+    font-size: 14px; 
+    margin: 0 auto;
+    z-index: 2; /* поверх всех */
+    border:  #000;
+    display:none;  /* сначала невидим */
+    position: fixed; /* фиксированное позиционирование, окно стабильно при прокрутке */
+    padding: 15px;
+}
+
+#shadow { 
+    position: fixed;
+    width:100%;
+    height:100%;
+    z-index:1; /* поверх всех  кроме окна*/
+    background: black;
+    opacity: 0.9; /*прозрачность*/
+    left:0;
+    top:0;
+}
+#popupWin{
+    height: 380px;
+
+}
+
+#popupWin1{
+    height: 400px;
+
+}
+
+#popupWin2{
+    height: 350px;
+
+}
+
+#popupWin3{
+    height: 320px;
+
+}
+
+
+
+
+

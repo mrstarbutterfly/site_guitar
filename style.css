@@ -1,0 +1,43 @@
+header{
+    background: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/221680/f2f4834d1fc48b2b342476486baf68ebb56e1712.jpg);
+    background-size: 100%;
+    height: 100vh;
+}
+
+h1{
+    padding-top: 10%;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    font-family: 'Stalinist One', cursive;
+
+}
+
+h2{
+    
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    font-family: 'Stalinist One', cursive;
+
+}
+
+.btn0{
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+    border: 0;
+    font-size:20px;
+    margin-left: 660px; 
+    margin-top: 380px;
+    font-family: 'Stalinist One', cursive;
+
+
+}
+
+.btn0:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
